@@ -1,19 +1,18 @@
 import styled, {createGlobalStyle, css} from 'styled-components';
 
 export const GlobalStyle = createGlobalStyle`
-    body {
-        color: #FBFBFB;
-        height: 100vh;
-        width: 100vw;
-        padding: 0;
-        margin: 0;
-        overflow: hidden;
-        text-rendering: antialiased;
-        background-color: #2828e6;
-        font-family: 'Work Sans', sans-serif;
-        font-weight: 500;
-        
-    }
+  body {
+    height: 100vh;
+    color: #FBFBFB;
+    width: 100vw;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    text-rendering: antialiased;
+    background-color: #2828e6;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 500;
+  }
 `;
 
 export const Marginals = css`
@@ -31,4 +30,12 @@ export const ImageContainer = styled.div`
   position: relative;
   height: 600px;
   width: 400px;
+`;
+
+export const Wrapper = styled.section`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vh;
 `;
