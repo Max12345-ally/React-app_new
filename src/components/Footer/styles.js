@@ -27,8 +27,8 @@ export const H2Middle = styled(H2)`
     display: block;
     position: absolute;
     height: 2px;
-    right: 15px;
     left: 15px;
+    right: 15px;
     top: 55%;
   }
 `;

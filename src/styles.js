@@ -8,7 +8,8 @@ export const GlobalStyle = createGlobalStyle`
     padding: 0;
     margin: 0;
     overflow: hidden;
-    text-rendering: antialiased;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
     background-color: #2828e6;
     font-family: 'Work Sans', sans-serif;
     font-weight: 500;
@@ -37,5 +38,5 @@ export const Wrapper = styled.section`
   justify-content: center;
   align-items: center;
   height: 100vh;
-  width: 100vh;
+  width: 100vw;
 `;

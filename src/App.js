@@ -1,22 +1,21 @@
 import React from 'react';
-import styled from 'styled-components';
-import {GlobalStyle, ImageContainer, Wrapper} from './styles';
-import HeaderComponent from './components/Header';
-import FooterComponent from './components/Footer';
+import Header from './components/Header';
+import Footer from './components/Footer';
 import ImgBox from './components/ImgBox';
+import {GlobalStyle, ImageContainer, Wrapper} from './styles';
 
 function App() {
   return (
-    <div className='App'>
+    <>
       <GlobalStyle />
-      <HeaderComponent />
-      <FooterComponent />
+      <Header />
+      <Footer />
       <Wrapper>
         <ImageContainer>
           <ImgBox />
         </ImageContainer>
       </Wrapper>
-    </div>
+    </>
   );
 }
 
