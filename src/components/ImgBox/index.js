@@ -1,12 +1,8 @@
 import React from 'react';
 import {Image} from './styles';
 
-function ImgBox() {
-  return (
-    <div>
-      <Image />
-    </div>
-  );
-}
+const ImgBox = ({x, y}) => {
+  return <Image $initialX={x} $initialY={y} />;
+};
 
 export default ImgBox;

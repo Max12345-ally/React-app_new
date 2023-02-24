@@ -18,8 +18,8 @@ export const GlobalStyle = createGlobalStyle`
 
 export const Marginals = css`
   box-sizing: border-box;
-  pointer-events: none;
   display: flex;
+  pointer-events: none;
   position: fixed;
   width: 100vw;
   z-index: 1;
