@@ -34,15 +34,17 @@ function App() {
     calculateDistance([touches[0].clientX, touches[0].clientY]);
   };
 
-  console.log(distance);
-
   return (
     <>
       <GlobalStyle />
       <Header />
       <Footer />
-      <Wrapper onMouseMove={handleMove} onTouchMove={handleTouchMove}>
-        <ImageContainer>
+      <Wrapper
+        onMouseMove={handleMove}
+        onTouchMove={handleTouchMove}
+        $color={Math.round(5 - distance * 100)}
+      >
+        <ImageContainer $isTogether={distance < 0.001}>
           {matrix.map(([x, y], index) => (
             <ImgBox key={index} x={x} y={y} percent={distance} />
           ))}
