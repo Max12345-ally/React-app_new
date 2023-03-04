@@ -4,7 +4,7 @@ import {Logo, Header} from './styles';
 function HeaderComponent() {
   return (
     <Header>
-      <Logo title='Milcky Mood Logo' />
+      <Logo title='Milky Mood Logo' />
     </Header>
   );
 }
