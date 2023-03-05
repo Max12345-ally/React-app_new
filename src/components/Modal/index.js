@@ -1,11 +1,12 @@
 import React from 'react';
 import {Modal, BG, Close} from './styles';
 
-function ModalComponent({toggleModal}) {
+function ModalComponent({toggleModal, children}) {
   return (
     <div>
       <Modal>
-        <Close />
+        <Close onClick={toggleModal} />
+        {children}
       </Modal>
       <BG onClick={toggleModal} />
     </div>

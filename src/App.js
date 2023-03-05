@@ -3,6 +3,7 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import ImgBox from './components/ImgBox';
 import Modal from './components/Modal';
+import ModalInner from './components/ModalInner';
 import {Button, GlobalStyle, ImageContainer, Wrapper} from './styles';
 
 // prettier-ignore
@@ -44,7 +45,11 @@ function App() {
   return (
     <>
       <GlobalStyle />
-      {showModal && <Modal toggleModal={toggleModal} />}
+      {showModal && (
+        <Modal toggleModal={toggleModal}>
+          <ModalInner />
+        </Modal>
+      )}
 
       <Header />
       <Footer />
