@@ -14,6 +14,10 @@ export const H2 = styled.h2`
   line-height: 0.7;
   margin: 0;
   padding: 15px;
+
+  @media (max-width: 700px) {
+    font-size: 44px;
+  }
 `;
 
 export const H2Middle = styled(H2)`
