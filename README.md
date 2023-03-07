@@ -1,15 +1,11 @@
-# Getting Started with Create React App
+# Description
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is an App for the musicians with puzzle animation and registration form for user.
 
-## Available Scripts
+# Technologies
 
-In the project directory, you can run:
+HTML | CSS | JavaScript | React | styled-div
 
-### `npm start`
+# Deployment
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+[link](https://react-app-new-eosin.vercel.app/)
